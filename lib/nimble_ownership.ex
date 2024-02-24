@@ -206,7 +206,7 @@ defmodule NimbleOwnership do
   shared owner. This is regardless of the `callers`.
 
   If none of the callers owns `key` or is allowed access to `key`, then this function
-  returns `{:error, reason}`.
+  returns `:error`.
 
   ## Examples
 
